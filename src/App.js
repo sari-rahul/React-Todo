@@ -11,7 +11,7 @@ export default () => {
       <Router>
         <Header/>
         <Routes>
-        <Route  path="" exact Component={TodoApp}/>
+        <Route  path="/" exact Component={TodoApp}/>
         <Route  path="/about" Component={About}/>
         </Routes>
       </Router>
