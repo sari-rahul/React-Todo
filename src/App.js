@@ -7,9 +7,10 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 export default () => {
 
   return (
+    
       <Router>
-        <Routes>
         <Header/>
+        <Routes>
         <Route  path="" exact Component={TodoApp}/>
         <Route  path="/about" Component={About}/>
         </Routes>
