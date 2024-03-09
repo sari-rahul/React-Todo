@@ -8,9 +8,9 @@ export default () => {
 
   return (
       <Router>
-        <Header/>
         <Routes>
-        <Route  path="/" exact Component={TodoApp}/>
+        <Header/>
+        <Route  path="" exact Component={TodoApp}/>
         <Route  path="/about" Component={About}/>
         </Routes>
       </Router>
