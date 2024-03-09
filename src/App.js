@@ -9,15 +9,11 @@ export default () => {
   return (
     
       <Router>
-        <AppHeader>
             <Header/>
-        </AppHeader>
-        <Appcontent>
           <Routes>
             <Route  path="/" exact Component={TodoApp}/>
             <Route  path="/about" Component={About}/>
           </Routes>
-        </Appcontent>
       </Router>
 
   );
