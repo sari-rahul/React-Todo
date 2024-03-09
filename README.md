@@ -2,4 +2,4 @@ React-Todo is a to do application build in react using using informations from D
 
 
 
-[Live site](https://sari-rahul.github.io/React-Todo/)
+[Live site](https://sari-rahul.github.io/React-Todo)
