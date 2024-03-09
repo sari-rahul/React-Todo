@@ -6,7 +6,7 @@ const Header = ()=>{
 
     return (
         <header>
-            <Link to="/">Home</Link>
+            <Link to="">Home</Link>
             <Link to="/about">About</Link>
         </header>
     );
